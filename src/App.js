@@ -1,9 +1,15 @@
 import React from "react";
+import Slider from "./slider/Slider";
+import  Navbar from "./navbar/Navbar";
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Goto frontend live link</h1>
+      <Navbar />
+      <Slider />
+      
+     
     </div>
   );
 }
