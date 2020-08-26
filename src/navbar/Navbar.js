@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css/";
 import { IconContext } from "react-icons";
 import { BsFillBellFill } from "react-icons/bs"; 
 import { BsChevronCompactRight} from "react-icons/bs"; 
-import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 class Slider extends Component {
