@@ -19,7 +19,7 @@ class Slider extends Component {
   <div class="collapse navbar-collapse justify-content" id="navbarNav">
     <ul class="navbar-nav ml-auto header_navbar">
        <li class="nav-item">
-        <a class="nav-link px-3" href="#" ><IconContext.Provider value={{color: "#3b3e51", padding: "0" }}><BsChevronCompactRight /><BsFillBellFill /></IconContext.Provider></a>
+        <a class="nav-link px-3" href="#" ><IconContext.Provider value={{color: "#3b3e51", padding: "0" }}><BsFillBellFill /></IconContext.Provider></a>
       </li>
       <li class="nav-item">
         <a class="nav-link px-3" href="#"><img className="user_photo" src="https://res.cloudinary.com/dtu2furcy/image/upload/v1598399999/SDG%202020/logo1_oetlr5.png"/></a>
@@ -35,6 +35,8 @@ class Slider extends Component {
     </ul>
   </div>
 </nav>
+           
+          
       
             </div>
          );

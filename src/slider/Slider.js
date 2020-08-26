@@ -13,7 +13,7 @@ export class navbar extends Component {
         return (
             <div>
                 <div className= "row">    
-                 <div className="col-md-2 col-lg-2 col-sm-2 col_body">
+                 <div className="col-md-6 col-lg-3 col-sm-12 col_body">
                     <ul>
                         <li>
                         <span> <IconContext.Provider
