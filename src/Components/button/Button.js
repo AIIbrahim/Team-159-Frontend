@@ -3,7 +3,7 @@ import './Button.css'
 
 function App({text, type, customClass}) {
   return (
-    <button type={type} className={`btn btn-${type} ${customClass}`}>
+    <button type={type} className={`btn btn-default btn-${type} ${customClass}`}>
       {text}
     </button>
   );

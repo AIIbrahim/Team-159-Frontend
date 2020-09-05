@@ -7,7 +7,7 @@ import Button from "../../../Components/button/Button";
 import Cards from "react-credit-cards";
 import "react-credit-cards/es/styles-compiled.css";
 
-class navbar extends Component {
+class ClientProfile extends Component {
     render() {
         return (  
             <div className="App">
@@ -18,7 +18,7 @@ class navbar extends Component {
                 <div className="container">
                   <div className="row py-5">
                     <div className="col-lg-4">
-                      <h2 className="mb-5">Account Settings</h2>
+                      <h2 className="mb-5 accout-settings">Account Settings</h2>
                       <form>
                         <div class="form-group">
                           <label for="yourname">Your Name</label>
@@ -114,4 +114,4 @@ class navbar extends Component {
     }
 }
 
-export default navbar
+export default ClientProfile
