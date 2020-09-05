@@ -1,16 +1,19 @@
 import React from "react";
-import Slider from "./slider/Slider";
-import  Navbar from "./navbar/Navbar";
 
+import "bootstrap/dist/css/bootstrap.min.css/";
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+
+import ClientProfile from "./Pages/client/ClientProfile"
 
 function App() {
   return (
-    <div className="App">
-       
-      <Navbar />
-      <Slider />
-    </div>
-  );
+    <Router>
+      <Switch>
+        <Route path="/Client-Dashboard" component= {ClientProfile}/>
+      </Switch>
+    </Router>
+     );
 }
 
 export default App;
