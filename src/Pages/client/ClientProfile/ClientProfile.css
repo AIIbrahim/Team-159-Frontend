@@ -1,0 +1,13 @@
+.payment-card {
+  border-radius: 20px;
+}
+
+.accout-settings {
+  color: #43425d;
+}
+
+p {
+  font: normal normal normal 14px;
+  color: #242e4c;
+  opacity: 0.6;
+}
