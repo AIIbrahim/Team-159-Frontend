@@ -10,10 +10,8 @@ import "./Slider.css";
 
 export class navbar extends Component {
     render() {
-        return (
-            <div>
-                <div className= "row">    
-                 <div className="col-md-6 col-lg-3 col-sm-12 col_body">
+        return (  
+                 <div className="col-md-6 col-lg-2 col-sm-12 col_body bg-white">
                     <ul>
                         <li>
                         <span> <IconContext.Provider
@@ -27,7 +25,7 @@ export class navbar extends Component {
                         <span> <IconContext.Provider
                         value={{ color: "#3b3e51" }}><FaLocationArrow /> </IconContext.Provider></span> Dispatcher
                       </li>
-                    <li>
+                    <li className="active">
                     <span> <IconContext.Provider
                     value={{ color: "#3b3e51" }}><FaUserAlt /> </IconContext.Provider></span> Profile
                     </li>
@@ -43,9 +41,6 @@ export class navbar extends Component {
                     </ul>
                     
                  </div>
-                </div>
-                
-            </div>
         )
     }
 }
