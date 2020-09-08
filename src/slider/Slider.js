@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { IconContext } from "react-icons";
+import { Link } from "react-router-dom";
 import { BsFillGrid1X2Fill } from "react-icons/bs";
 import { FaLocationArrow } from "react-icons/fa";
 import { FaUserAlt } from "react-icons/fa";
@@ -13,7 +14,7 @@ export class navbar extends Component {
         return (
             <div>
                 <div className= "row">    
-                 <div className="col-md-6 col-lg-3 col-sm-12 col_body">
+                 <div className="col_body pl-3">
                     <ul>
                         <li>
                         <span> <IconContext.Provider
@@ -24,9 +25,10 @@ export class navbar extends Component {
                          value={{ color: "#3b3e51" }}><FaCartArrowDown /> </IconContext.Provider></span> My packages
                        </li>
                       <li>
-                        <span> <IconContext.Provider
+                       <Link to="/dispatcher" style={{textDecoration:"none" , color: "#3b3e51"}}><span className="pr-2" style={{pointer: "cursor"}}> <IconContext.Provider
                         value={{ color: "#3b3e51" }}><FaLocationArrow /> </IconContext.Provider></span> Dispatcher
-                      </li>
+                        </Link> 
+                   </li>
                     <li>
                     <span> <IconContext.Provider
                     value={{ color: "#3b3e51" }}><FaUserAlt /> </IconContext.Provider></span> Profile
