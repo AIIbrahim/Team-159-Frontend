@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import { IconContext } from "react-icons";
 import { BsFillBellFill } from "react-icons/bs";
 import { BsChevronCompactRight } from "react-icons/bs";
-import "./Navbar.css";
+import "./Navbar.css"
 
 class Navbar extends Component {
   state = {};

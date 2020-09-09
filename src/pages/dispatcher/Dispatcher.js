@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { IconContext } from "react-icons";
 import {GiNorthStarShuriken} from "react-icons/gi";
 import { GoVerified} from "react-icons/go";
-import { FaSearch } from "react-icons/fa";
+// import { FaSearch } from "react-icons/fa";
 
 import "./dispatcher.css";
 import Slider from "../../Components/slider/Slider";
