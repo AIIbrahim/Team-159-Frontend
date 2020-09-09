@@ -7,6 +7,10 @@ import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import ClientProfile from "./Pages/client/ClientProfile";
 import ClientPackages from "./Pages/client/ClientPackages/ClientPackages"
 
+import Navbar from "./Components/navbar/Navbar";
+import Slider from "./Components/slider/Slider";
+import Dispatcher from "./Pages/dispatcher";
+
 function App() {
   return (
    <Router>

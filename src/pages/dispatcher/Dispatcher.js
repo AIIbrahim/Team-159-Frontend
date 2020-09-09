@@ -7,8 +7,7 @@ import { GoVerified} from "react-icons/go";
 import { FaSearch } from "react-icons/fa";
 
 import "./dispatcher.css";
-import Slider from '../../slider/Slider';
-
+import Slider from "../../Components/slider/Slider";
 
 
 class Dispatcher extends Component {

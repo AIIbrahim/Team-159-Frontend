@@ -9,17 +9,10 @@ import { FaUserShield } from "react-icons/fa";
 import { FiSettings } from "react-icons/fi";
 import "./Slider.css";
 
-export class navbar extends Component {
+class Slider extends Component {
     render() {
-<<<<<<< HEAD:src/slider/Slider.js
-        return (
-            <div>
-                <div className= "row">    
-                 <div className="col_body pl-3">
-=======
         return (  
-                 <div className="col-md-6 col-lg-2 col-sm-12 col_body bg-white">
->>>>>>> 57feeb95792401e2e5d11824472af988d996a16b:src/Components/slider/Slider.js
+                 <div className="col_body bg-white">
                     <ul>
                         <li>
                         <span> <IconContext.Provider
@@ -32,14 +25,9 @@ export class navbar extends Component {
                       <li>
                        <Link to="/dispatcher" style={{textDecoration:"none" , color: "#3b3e51"}}><span className="pr-2" style={{pointer: "cursor"}}> <IconContext.Provider
                         value={{ color: "#3b3e51" }}><FaLocationArrow /> </IconContext.Provider></span> Dispatcher
-<<<<<<< HEAD:src/slider/Slider.js
-                        </Link> 
-                   </li>
-                    <li>
-=======
+                      </Link>
                       </li>
                     <li className="active">
->>>>>>> 57feeb95792401e2e5d11824472af988d996a16b:src/Components/slider/Slider.js
                     <span> <IconContext.Provider
                     value={{ color: "#3b3e51" }}><FaUserAlt /> </IconContext.Provider></span> Profile
                     </li>
@@ -59,4 +47,4 @@ export class navbar extends Component {
     }
 }
 
-export default navbar
+export default Slider

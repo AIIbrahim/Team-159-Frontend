@@ -6,7 +6,7 @@ import { BsChevronCompactRight} from "react-icons/bs";
 import "./Navbar.css";
 import { Link } from 'react-router-dom';
 
-class Slider extends Component {
+class Navbar extends Component {
     state = {  }
     render() { 
         return ( 
@@ -41,4 +41,4 @@ class Slider extends Component {
     }
 }
  
-export default Slider;
+export default Navbar;
