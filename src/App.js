@@ -9,7 +9,7 @@ import ClientPackages from "./Pages/client/ClientPackages/ClientPackages"
 
 import Navbar from "./Components/navbar/Navbar";
 import Slider from "./Components/slider/Slider";
-import Dispatcher from "./Pages/dispatcher";
+import Dispatcher from "./Pages/dispatcher/Dispatcher";
 
 function App() {
   return (
