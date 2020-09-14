@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "bootstrap/dist/css/bootstrap.min.css/";
+import "../Pages/dispatcher/node_modules/bootstrap/dist/css/bootstrap.min.css/";
 import { IconContext } from "react-icons";
 import { BsFillBellFill } from "react-icons/bs"; 
 import { BsChevronCompactRight} from "react-icons/bs"; 
