@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import ClientProfile from "./Pages/client/ClientProfile";
 import ClientPackages from "./Pages/client/ClientPackages/ClientPackages";
-import ClientDashboard from "./Pages/client/ClientDashboard/ClientDashboard"
+import ClientDashboard from "./pages/client/ClientDashboard/ClientDashboard"
 
 import Navbar from "./Components/navbar/Navbar";
 import Slider from "./Components/slider/Slider";
