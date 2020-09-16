@@ -9,7 +9,7 @@ import ClientDashboard from "./Pages/client/ClientDashboard/ClientDashboard"
 
 import Navbar from "./Components/navbar/Navbar";
 import Slider from "./Components/slider/Slider";
-import Dispatcher from "./Pages/dispatcher/Dispatcher";
+import Dispatcher from "./pages/dispatcher/Dispatcher";
 
 function App() {
   return (
