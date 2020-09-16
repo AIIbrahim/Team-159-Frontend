@@ -1,5 +1,6 @@
 import React from "react";
 
+import "bootstrap/dist/css/bootstrap.min.css/";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
@@ -15,9 +16,9 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component= {ClientPackages}/>
-        <Route path="/Client-Profile" component= {ClientProfile}/>
-        <Route path="/Client-Dashboard" component= {ClientDashboard}/>
+        <Route exact path="/" component= {ClientDashboard}/>
+        <Route path="/packages" component= {ClientPackages}/>
+        <Route path="/profile" component= {ClientProfile}/>
          <Route path="/dispatcher" component={Dispatcher} />
       </Switch>
     </Router>

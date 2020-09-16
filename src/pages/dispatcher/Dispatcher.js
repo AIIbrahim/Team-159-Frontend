@@ -8,12 +8,13 @@ import { GoVerified} from "react-icons/go";
 
 import "./dispatcher.css";
 import Slider from "../../Components/slider/Slider";
-
+import Navbar from "../../Components/navbar/Navbar"
 
 class Dispatcher extends Component {
     render() {
         return (
             <React.Fragment>
+                <Navbar/>
                 <div className="row no-gutters">
                 <Slider />
                  <div className="col-lg-10"> 
