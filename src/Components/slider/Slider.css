@@ -2,7 +2,7 @@
     height: 100%;
 }
 .col_body {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 ul {
@@ -20,6 +20,7 @@ ul > li  {
     color: #3b3e51;
     opacity: 1;
     display: block;
+    font-size: 14px;
     
 }
 

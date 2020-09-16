@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { IconContext } from "react-icons";
+import { Link } from "react-router-dom";
 import { BsFillGrid1X2Fill } from "react-icons/bs";
 import { FaLocationArrow } from "react-icons/fa";
 import { FaUserAlt } from "react-icons/fa";
@@ -8,10 +9,10 @@ import { FaUserShield } from "react-icons/fa";
 import { FiSettings } from "react-icons/fi";
 import "./Slider.css";
 
-export class navbar extends Component {
+class Slider extends Component {
     render() {
         return (  
-                 <div className="col-md-6 col-lg-2 col-sm-12 col_body bg-white">
+                 <div className="col_body bg-white">
                     <ul>
                         <li>
                         <span> <IconContext.Provider
@@ -22,8 +23,9 @@ export class navbar extends Component {
                          value={{ color: "#3b3e51" }}><FaCartArrowDown /> </IconContext.Provider></span> My packages
                        </li>
                       <li>
-                        <span> <IconContext.Provider
+                       <Link to="/dispatcher" style={{textDecoration:"none" , color: "#3b3e51"}}><span className="pr-2" style={{pointer: "cursor"}}> <IconContext.Provider
                         value={{ color: "#3b3e51" }}><FaLocationArrow /> </IconContext.Provider></span> Dispatcher
+                      </Link>
                       </li>
                     <li className="active">
                     <span> <IconContext.Provider
@@ -45,4 +47,4 @@ export class navbar extends Component {
     }
 }
 
-export default navbar
+export default Slider
