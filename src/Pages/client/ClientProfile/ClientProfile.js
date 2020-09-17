@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react'
 import Slider from "../../../Components/slider/Slider";
 import Navbar from "../../../Components/navbar/Navbar";
