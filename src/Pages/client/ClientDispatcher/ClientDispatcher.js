@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import "bootstrap/dist/css/bootstrap.min.css/";
 import { Link } from "react-router-dom";
 import { IconContext } from "react-icons";
 import {GiNorthStarShuriken} from "react-icons/gi";
@@ -7,10 +6,10 @@ import { GoVerified} from "react-icons/go";
 
 
 import "./dispatcher.css";
-import Slider from "../../Components/slider/Slider";
-import Navbar from "../../Components/navbar/Navbar"
+import Slider from "../../../Components/slider/Slider";
+import Navbar from "../../../Components/navbar/Navbar";
 
-class Dispatcher extends Component {
+class ClientDispatcher extends Component {
     render() {
         return (
             <React.Fragment>
@@ -194,4 +193,4 @@ class Dispatcher extends Component {
     }
 }
 
-export default Dispatcher;
+export default ClientDispatcher;
