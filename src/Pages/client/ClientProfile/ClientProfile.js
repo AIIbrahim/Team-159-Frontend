@@ -89,7 +89,7 @@ class ClientProfile extends Component {
                           className="mx-auto mb-3"
                         >                
                         </div>
-                        <Button type="success" text = 'Upload a picture' customClass=" mb-5sss"/>
+                        <Button type="success" text = 'Upload a picture' customClass=" mb-5"/>
                       </div>
                       <hr className="py-4 my-5 " />
                       <div className="payment-card mx-md-5 p-md-5 bg-white text-center">

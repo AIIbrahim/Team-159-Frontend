@@ -6,6 +6,10 @@ border-radius: 5px;
 opacity: 1;
 }
 
+.btn-block {
+    width: 100%;
+}
+
 
 .btn-success {
     background-color: #145DA0;
