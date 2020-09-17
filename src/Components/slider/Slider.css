@@ -1,0 +1,44 @@
+.row {
+    height: 100%;
+}
+.col_body {
+    padding-top: 50px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul > li  {
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 15px;  
+    padding-bottom: 15px;  
+    letter-spacing: 0.24px;
+    color: #7c7d88;
+    opacity: 1;
+    display: block;
+    font-size: 14px;
+}
+
+ul > li > a:hover {
+    text-decoration: none;
+     color: #7c7d88;
+     cursor: pointer;
+}
+
+li a {
+    color: #7c7d88;
+    display: block;
+}
+li > a > span {
+    padding-right: 10px;
+}
+
+li.active {
+    background-color: #F5F6FF ;
+    border-bottom: 1px solid #000;
+    font-weight: bold;
+}
