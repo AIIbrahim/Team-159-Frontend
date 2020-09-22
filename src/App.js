@@ -22,7 +22,8 @@ function App() {
         <Route path="/packages" component= {ClientPackages}/>
         <Route path="/profile" component= {ClientProfile}/>
          <Route path="/dispatcher" component={Dispatcher} />
-         <Route path="/auth" component={ClientSignUp} />
+         
+         <Route path="/client-signup" component={ClientSignUp} />
       </Switch>
     </Router>
      );

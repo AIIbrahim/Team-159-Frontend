@@ -20,7 +20,7 @@ label {
   color: #1a2950;
 }
 
-input[type=text],
+input,
 textarea {
   background: rgba(216, 216, 216, 0.2) 0% 0% no-repeat padding-box !important;
   border: 1px solid rgba(36, 46, 76, 0.2) !important;
@@ -30,7 +30,7 @@ textarea {
   font: normal normal normal 17px;
 }
 
-input[type=text]:focus {
+input:focus, textarea:focus {
   border: 1px solid rgba(36, 46, 76, 0.4) !important;
   box-shadow: none !important;
 }
