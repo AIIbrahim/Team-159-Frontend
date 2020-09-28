@@ -102,13 +102,19 @@ class ClientSignUp extends Component {
       password &&
       confirm_password
     ) {
+      console.log(fullName,
+        emailAddress,
+        address,
+        phoneNumber,
+        password,
+        confirm_password)
       try {
-        await axios.post({
+        const req = await axios.post({
           method: "POST",
-          url: "https://goto2.herokuapp.com/register",
+          url: "https://goto2.herokuapp.com/api/register",
           headers: {
             "Content-Type": "application/json",
-            Accept: "application/json",
+            "Accept": "application/json",
           },
           data: {
             name: fullName,
@@ -117,8 +123,9 @@ class ClientSignUp extends Component {
             password_confirm: confirm_password,
           },
         });
+        console.log(req);
       } catch (err) {
-        console.log(err);
+        console.log("err", err);
       }
     } else {
       this.setState({ formValid: false });
